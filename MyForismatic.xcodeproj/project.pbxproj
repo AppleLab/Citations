@@ -21,6 +21,7 @@
 		CE069A5C19A5FD2B00192A11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE069A3E19A5FD2B00192A11 /* UIKit.framework */; };
 		CE069A6419A5FD2B00192A11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE069A6219A5FD2B00192A11 /* InfoPlist.strings */; };
 		CE069A6619A5FD2B00192A11 /* MyForismaticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE069A6519A5FD2B00192A11 /* MyForismaticTests.m */; };
+		CE069AB819A759EB00192A11 /* MyArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CE069AB719A759EB00192A11 /* MyArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CE069A6119A5FD2B00192A11 /* MyForismaticTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyForismaticTests-Info.plist"; sourceTree = "<group>"; };
 		CE069A6319A5FD2B00192A11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE069A6519A5FD2B00192A11 /* MyForismaticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyForismaticTests.m; sourceTree = "<group>"; };
+		CE069AB619A759EB00192A11 /* MyArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyArray.h; sourceTree = "<group>"; };
+		CE069AB719A759EB00192A11 /* MyArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				CE069A4C19A5FD2B00192A11 /* Main.storyboard */,
 				CE069A4F19A5FD2B00192A11 /* ViewController.h */,
 				CE069A5019A5FD2B00192A11 /* ViewController.m */,
+				CE069AB619A759EB00192A11 /* MyArray.h */,
+				CE069AB719A759EB00192A11 /* MyArray.m */,
 				CE069A5219A5FD2B00192A11 /* Images.xcassets */,
 				CE069A4119A5FD2B00192A11 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE069A5119A5FD2B00192A11 /* ViewController.m in Sources */,
+				CE069AB819A759EB00192A11 /* MyArray.m in Sources */,
 				CE069A4B19A5FD2B00192A11 /* AppDelegate.m in Sources */,
 				CE069A4719A5FD2B00192A11 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				CE069A6B19A5FD2B00192A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE069A6C19A5FD2B00192A11 /* Build configuration list for PBXNativeTarget "MyForismaticTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				CE069A6E19A5FD2B00192A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
